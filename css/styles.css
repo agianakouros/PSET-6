@@ -1,9 +1,9 @@
 .header {
-  padding: 40px;
+  padding: 30px;
   text-align: center;
-  background: #21253F;
   color: white;
   font-size: 40px;
+  margin: 0;
 }
 
 #input{
@@ -21,7 +21,7 @@
   padding-right: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #5F5754;
+  background-color: coral;
   color: white;
   font-size: 20px;
   color: white;
@@ -33,5 +33,41 @@
 }
 
 .addButton:hover {
-   background-color: coral;
+   background-color: #E55E00;
+}
+
+body {
+  background-color: #212427;
+}
+
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+ul li {
+  width: 100%;
+  padding: 20px;
+  font-family: Tahoma,Geneva,sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  background-color: beige;
+  border: 3px solid black;
+  border-radius: 5px;
+
 }
