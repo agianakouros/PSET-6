@@ -112,8 +112,8 @@ hr{
       border-width: 1px;
       margin-left: 430px;
       margin-right: 430px;
-
 }
+
 .title {
   padding: 30px;
   text-align: center;
@@ -123,6 +123,7 @@ hr{
   font-family: Times, serif;
   text-shadow: 3px 3px coral;
 }
+
 .description{
   text-align: center;
   font-size: 40px;
@@ -130,6 +131,7 @@ hr{
   font-family: Times, serif;
   font-style: italic;
 }
+
 table {
     margin-bottom: auto;
     margin-left: auto;
@@ -140,6 +142,7 @@ table {
     background-color: none;
     font-family: Times;
 }
+
 .to_do {
   font-family: Times;
   text-align: center;
@@ -150,10 +153,12 @@ table {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .row {
     margin-top: 20px;
     height: 40px;
 }
+
 .priority_button {
     width: 60px;
     text-align: center;
