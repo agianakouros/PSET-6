@@ -379,3 +379,11 @@ table {
   transform: rotate(45deg);
   z-index: -1;
 }
+
+::selection {
+  background: coral; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: coral; /* Gecko Browsers */
+}
