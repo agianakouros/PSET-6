@@ -15,8 +15,8 @@ window.onload = function() {
 const create_item = function() {
   let input = document.getElementById("input_item").value;
   if (input === "") {
-
   }
+
   else {
       let to_do = {
           task: input,
@@ -79,6 +79,7 @@ const prioritize_item = function() {
         elements.unshift(objectToMove);
         prioritize = true;
       }
+
       else if (elements[z].priority) {
         element_prioritize = row[z]
         priority_button[z].style.backgroundColor = "coral";
@@ -91,6 +92,7 @@ const prioritize_item = function() {
         prioritize = true;
       }
     };
+
     if (prioritize) {
       break;
     }
@@ -120,6 +122,7 @@ const remove_item = function() {
         remove_element.remove();
         elements.splice(i, 1);
     };
+
     if (removed) {
         break;
     }
@@ -127,8 +130,8 @@ const remove_item = function() {
 }
 const finish_item = function() {
   var finish = false;
-  for (let x = 0; x < complete_button.length; x++) {
-    complete_button[x].onclick = function() {
+    for (let x = 0; x < complete_button.length; x++) {
+      complete_button[x].onclick = function() {
        if (elements[x].complete == false) {
          finish = true;
          list_item[x].style.setProperty("text-decoration", "line-through");
@@ -136,6 +139,7 @@ const finish_item = function() {
          complete_button[x].style.backgroundColor = "#E55E00";
          elements[x].complete = true;
        }
+
        else if (elements[x].complete == true) {
          complete_button[x].style.backgroundColor = "coral";
          list_item[x].style.setProperty("text-decoration", "none");
@@ -143,6 +147,7 @@ const finish_item = function() {
          elements[x].complete = false;
        }
      };
+     
      if (finish) {
        break;
      }
