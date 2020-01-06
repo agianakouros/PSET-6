@@ -175,9 +175,11 @@ table {
     text-decoration: none;
     position: relative;
 }
+
 .priority_button:hover {
     background-color: #E55E00;
 }
+
 .complete_button {
   width: 60px;
   text-align: center;
@@ -194,9 +196,11 @@ table {
   text-decoration: none;
   position: relative;
 }
+
 .complete_button:hover {
     background-color: #E55E00;
 }
+
 .remove_button {
   margin-left: 30px;
   width: 60px;
@@ -214,9 +218,11 @@ table {
   text-decoration: none;
   position: relative;
 }
+
 .remove_button:hover {
     background-color: #E55E00;
 }
+
 .input {
    width: 64%;
    padding: 17px;
@@ -226,6 +232,7 @@ table {
    margin-left: 217px;
    margin-right: auto;
 }
+
 .user_input {
   margin-left: auto;
   margin-right: auto;
@@ -237,6 +244,7 @@ table {
   left: -3px;
   box-shadow: -3px 3px 0 #404040;
 }
+
   .priority_button:after {
     top: 1px;
     left: -2px;
@@ -263,7 +271,6 @@ table {
   background-color: #404040;
   transform: rotate(45deg);
   z-index: -1;
-
 }
 
 .priority_button::before {
@@ -278,11 +285,13 @@ table {
   transform: rotate(45deg);
   z-index: -1;
 }
+
 .remove_button:hover {
   top: 3px;
   left: -3px;
   box-shadow: -3px 3px 0 #404040;
 }
+
   .remove_button:after {
     top: 1px;
     left: -2px;
