@@ -147,9 +147,11 @@ const finish_item = function() {
          elements[x].complete = false;
        }
      };
-     
+
      if (finish) {
        break;
      }
   }
 }
+
+// But you have got to have friends. 

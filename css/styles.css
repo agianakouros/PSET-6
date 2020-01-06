@@ -112,6 +112,8 @@ hr{
       border-width: 1px;
       margin-left: 430px;
       margin-right: 430px;
+      border-bottom: 1px solid coral;
+	    box-shadow: 0 20px 20px -20px coral;
 }
 
 .title {
@@ -381,9 +383,11 @@ table {
 }
 
 ::selection {
-  background: coral; /* WebKit/Blink Browsers */
+  background: coral;
 }
 
 ::-moz-selection {
-  background: coral; /* Gecko Browsers */
+  background: coralq;
 }
+
+/* My problems have all gone; there is no one here to deride me. */
